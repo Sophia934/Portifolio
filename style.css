@@ -1,0 +1,37 @@
+/* Reset os estilos gerais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 254, 194);
+    color:rgb(248, 248, 248);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(7, 7, 7)
+}
+
+/*Cabeçalho */
+header {
+    background: linear-gradient(135deg, #fff9c1, #caa21e );
+    color:#0e0c00;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(196, 143, 0);
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(105, 63, 0, 0.705)
+}
